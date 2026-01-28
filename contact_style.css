@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0f172a;
+    color: #e2e8f0;
+    line-height: 1.6;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 8%;
+    background-color: #0b1220;
+    flex-wrap: wrap;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #38bdf8;
+}
+
+.navbar nav {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.navbar nav a {
+    color: #cbd5e1;
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: color 0.3s ease;
+}
+
+.navbar nav a:hover {
+    color: #38bdf8;
+}
+.contact-info {
+    background-color: #0c235a;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 0 1px rgba(255,255,255,0.05);
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+
+    margin-top: 100px; 
+    margin-bottom: 100px; 
+}
+
+.contact-info p {
+    color: #94a3b8;
+    margin-bottom: 20px;
+}
+
+.contact-item {
+    margin: 12px 0;
+    font-size: 1rem;
+}
+
+.contact-item a {
+    color: #38bdf8;
+    text-decoration: none;
+}
+
+.contact-item a:hover {
+    text-decoration: underline;
+}
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #0b1220;
+    color: #64748b;
+    font-size: 0.9rem;
+}
